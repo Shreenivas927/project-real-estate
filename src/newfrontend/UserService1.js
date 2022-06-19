@@ -15,9 +15,7 @@ const deleteUser = (values) => {
    // console.log(" from userservice delete record")
    console.log(values)
    // console.log(" from userservice delete record")
-    return http.post("/deleteUser", values)
-    
-    console.log(" from userservice delete record")
+    return http.post("/deleteUser", values);
 }
 
 const update = (userdata) => {
